@@ -1,15 +1,15 @@
 # Twine
 
-Code will be uploaded at a later time.
+*Code will be uploaded at a later time.*
 
-Another backend for Vine. Made as an experiment and **NOT ready for production use**. If you decide to host your own revival and wish to use this backend, be aware there are plenty of vulnerabilities.
+Another backend for Vine, made as an experiment and **NOT ready for production use**. If you decide to host your own revival and wish to use this backend, be aware there are vulnerabilities that will need to be repaired, mainly with SQL injection.
 
 I don't intend to start my own Vine revival since Ivy's community was absolutely terrible, and don't have the time or energy to deal with some people in the LegacyJailbreak or similar revival communities right now.
 
 ## Setup
 I use the latest version of XAMPP to host the server.
 
-To make the app point to the server, you can use bag.xml's VineRedirect, or patch the app directly:
+To make the app point to the server, you can use bag.xml's VineRedirect (recommended), or patch the app directly:
 1. Download the IPA of Vine 1.3.3 (the version I'm using, but I'm pretty sure most versions of 1.x.x work)
 2. Rename the extension from `.ipa` to `.zip`
 3. Unzip the folder
@@ -28,6 +28,7 @@ To make the app point to the server, you can use bag.xml's VineRedirect, or patc
 - Logging in
 - Making & deleting posts
 - Modifying user settings:
+  - Settings page
   - Profile photo
   - Username, description, location, email, phone number
 - Timelines:
@@ -45,6 +46,8 @@ To make the app point to the server, you can use bag.xml's VineRedirect, or patc
 - Explore page (not searching for people or tags)
 - Follow requests
 - VMs
-- More stuff I probably forgot to mention... whatever's not on the "working" list.
+- Notifications
+- Adding location to posts (NTS: use Savefade's osm2foursquare)
+- More stuff I probably forgot to mention...
 
 Big thanks to [bruhdude's clematis](https://github.com/bruhdudeisdead/clematis)!
