@@ -4,24 +4,10 @@
 
 Another backend for Vine, made as an experiment and **NOT ready for production use**. If you decide to host your own revival and wish to use this backend, be aware there are vulnerabilities that will need to be repaired, mainly with SQL injection.
 
-I don't intend to start my own Vine revival since Ivy's community was absolutely terrible, and don't have the time or energy to deal with some people in the LegacyJailbreak or similar revival communities right now.
+I don't intend to start my own Vine revival for a multitude of reasons. Do what you wish with this.
 
 ## Setup
-I use the latest version of XAMPP to host the server.
-
-To make the app point to the server, you can use bag.xml's VineRedirect (recommended), or patch the app directly:
-1. Download the IPA of Vine 1.3.3 (the version I'm using, but I'm pretty sure most versions of 1.x.x work)
-2. Rename the extension from `.ipa` to `.zip`
-3. Unzip the folder
-4. In Payload folder, there is another `.app` file. Reveal its contents and navigate inside.
-5. Find the "iphone" file. That's the app's binary.
-6. Drop the binary into https://hexed.it
-7. Change all URLs to point to your server. Be aware that the length of the URLs must match, i.e. `api.vineapp.com` (15 characters) or whichever URL you're replacing must be the same length as your new URL.
-8. Save the binary
-9. Drop it back into the `.app`'s contents
-10. Zip the `Payload` and `iTunesArtwork` files
-11. Change the extension from `.zip` to `.ipa`
-12. Sideload!
+I use the latest version of XAMPP to host the server. To make the app point to the server, I use bag.xml's VineRedirect.
 
 ## Working:
 - Registering new account
@@ -31,23 +17,22 @@ To make the app point to the server, you can use bag.xml's VineRedirect (recomme
   - Settings page
   - Profile photo
   - Username, description, location, email, phone number
+  - Setting or unsetting profile to private or "sensitive" (explicit)
 - Timelines:
   - Main feed
   - Per-user/profile
-  - User's likes
+  - Liked vines from user
 - Explore users
-- Following/unfollowing
-- Follower and following pages
+- Following/unfollowing, followers list and following list
+- Notifications
+- Adding location to posts (credit: [osm2foursquare](https://github.com/savefade/osm2foursquare) by Savefade)
+- Revining
+- Blocking
+- Reporting
 
 ## Not working:
-- Revining
-- Reporting
-- Blocking
-- Explore page (not searching for people or tags)
-- Follow requests
+- Explore page (not searching for people or tags): `/explore/v2`
 - VMs
-- Notifications
-- Adding location to posts (NTS: use Savefade's osm2foursquare)
 - More stuff I probably forgot to mention...
 
 Big thanks to [bruhdude's clematis](https://github.com/bruhdudeisdead/clematis)!
