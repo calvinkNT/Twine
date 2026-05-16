@@ -2,15 +2,12 @@
 
 *Code will be uploaded at a later time.*
 
-This is a backend for Vine, primarily made for app version 1.3.4.
-
-## Disclaimers
-Made as an experiment and **NOT ready for production use**. If you decide to host your own revival and wish to use this backend, be aware there are vulnerabilities that will need to be repaired, mainly with SQL injection.
-
-I will not start my own Vine revival for a multitude of reasons. Do not contact me asking to start one or for help starting one. 
+Currently, this is the most feature-complete open-source backend reimplementation for Vine.
 
 ## Setup
-I use the latest version of XAMPP to host the server. To make the app point to the server, I use bag.xml's VineRedirect.
+I use the latest version of XAMPP to host the server. Just drop the files in `htdocs` and you're good to go.
+
+To make the app point to the server, I use bag.xml's VineRedirect.
 
 ## Working:
 - Registering new account
@@ -35,7 +32,8 @@ I use the latest version of XAMPP to host the server. To make the app point to t
 
 ## Not working:
 - Explore page (not searching for people or tags): `/explore/v2`
-- VMs
+- Explore tags
 - Follow requests
+- VMs (will probably never be implemented by me.)
 
 Big thanks to [bruhdude's clematis](https://github.com/bruhdudeisdead/clematis)!
