@@ -2,7 +2,9 @@
 
 *Code will be uploaded at a later time.*
 
-Currently, this is the most feature-complete open-source backend reimplementation for Vine.
+Currently, this is the most feature-complete open-source backend reimplementation for Vine. If you host an instance of this server without significant modification to the code, please credit me. 
+
+[Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
 
 ## Setup
 I use the latest version of XAMPP to host the server. Just drop the files in `htdocs` and you're good to go.
@@ -12,28 +14,31 @@ To make the app point to the server, I use bag.xml's VineRedirect.
 ## Working:
 - Registering new account
 - Logging in
-- Making & deleting posts
-- Modifying user settings:
-  - Settings page
+- Modifying settings
   - Profile photo
   - Username, description, location, email, phone number
-  - Setting or unsetting profile to private or "sensitive" (explicit)
-- Timelines:
+  - Setting or unsetting profile to private or sensitive
+- Timelines
   - Main feed
   - Per-user/profile
   - Liked vines from user
+- Posting
+  - Making & deleting posts
+  - Adding location/venue
+- Interactions
+  - Revining
+  - Notifications
+  - Blocking
+  - Reporting
+  - Following/unfollowing
 - Explore users
-- Following/unfollowing, followers list and following list
-- Notifications
-- Adding location to posts
-- Revining
-- Blocking
-- Reporting
+- Channels
 
 ## Not working:
 - Explore page (not searching for people or tags): `/explore/v2`
 - Explore tags
-- Follow requests
+- Follow requests (following a private account immedately accepts the follow request)
+- Setting account to sensitive doesn't really do anything
 - VMs (will probably never be implemented by me)
 
 ## Credits
