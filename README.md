@@ -1,10 +1,8 @@
 # Twine
 
-*Code will be uploaded at a later time, once it's in a more finished state.*
+**Code will be uploaded at a later time, once it's in a more finished state.**
 
-This is the most feature-complete open-source backend reimplementation for Vine.
-
-[Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
+This is the most feature-complete open-source backend reimplementation for Vine. ([Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo))
 
 ## Disclaimer
 This project does not claim ownership of, or affiliation with, the Vine trademark or any official Vine clients or applications.
@@ -45,6 +43,9 @@ Several weeks at best.
   - Main feed
   - Per-user/profile
   - Liked vines from user
+  - Editor's Pick
+  - Popular Now
+  - On-The-Rise
 - Posting
   - Making & deleting posts
   - Adding location/venue
@@ -63,15 +64,14 @@ Several weeks at best.
 ## Not working:
 - Although you can set your account to private or sensitive, it doesn't do anything at the moment.
 - VMs
+- Integration with FaceBook and Twitter (I do not plan to fix)
 
 ## Compatible Versions
 
-| Version | Status |
-| ------------- | --------------- |
-| 1.0.5 | Mostly compatible |
-| 1.3.x | Fully supported |
-| 1.4.5 | Mostly compatible |
-| Other | Unknown |
+- 1.0.5: Fully supported
+- 1.3.x: Fully supported
+- 1.4.5: Fully supported
+- Other: Unknown
 
 I don't plan to fully support versions other than 1.3.x, 1.4.x, 2.5.1, and 5.7.0.
 
