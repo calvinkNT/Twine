@@ -32,12 +32,14 @@ This is the most feature-complete open-source backend reimplementation for Vine.
 - Exploring
   - Exploring users
   - Exploring tags
-  - Explore page with trending tags, Editor's Pick, Popular Now, and On The Rise buttons
+  - Explore page
+  - Looking at channels
 - Activity (all types)
 
 ## Not working: 
 - VMs 
 - Integration with FaceBook and Twitter
+- Password reset through app
 
 ## Compatible Versions
 
@@ -63,6 +65,8 @@ I use Apache to host the server, with the `SQLite3` and `PDO_SQLITE` PHP extensi
 Drop the server in `/var/www/html` (or `htdocs` if using XAMPP), write your DMCA contact email in `_config.php`, make sure your app is pointed to the server, and register a new account through the app. The db file will be created automatically.
 
 To make the app point to the server, I use [bag.xml's VineRedirect](https://cydia.bag-xml.com/), which works for jailbroken iOS 5-7 devices. A guide on patching for Android and other platforms can be found [here](https://github.com/bruhdudeisdead/clematis/wiki/Patching).
+
+When patching domains in the binary, make sure that when you need different length domains (i.e. `api12.example.com` and `api1234.example.com`), they both redirect to your same server.
 
 ## Disclaimer
 This project does not claim ownership of, or affiliation with, the Vine trademark or any official Vine clients or applications.
