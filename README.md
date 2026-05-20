@@ -44,12 +44,14 @@ This is the most feature-complete open-source backend reimplementation for Vine.
 | Version | Status |
 | ------- | ------ | 
 | 1.0.x | Mostly supported<sup>1</sup> |
+| 1.1.x & 1.2.x | Unknown |
 | 1.3.x | Fully supported |
 | 1.4.x | Mostly supported<sup>2</sup> |
 | 2.5.1 | Planned |
 | 5.7.0 | Planned |
-| Other | Unknown |
+| Other | Not planned<sup>0</sup> |
 
+<sup>0</sup> If you'd like to add support for more client versions, please make a PR or a fork  
 <sup>1</sup> Can't upload vines or see Explore page when using VineRedirect  
 <sup>2</sup> Crashes on timelines atm
 
