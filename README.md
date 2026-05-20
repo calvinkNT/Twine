@@ -1,6 +1,6 @@
 # Twine
 
-**Code will be uploaded at a later time, once it's in a more finished state.**
+Code will be uploaded at a later time, once it's in a finished state.
 
 This is the most feature-complete open-source backend reimplementation for Vine. ([Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo))
 
@@ -25,27 +25,33 @@ This is the most feature-complete open-source backend reimplementation for Vine.
 - Interactions
   - Revining
   - Notifications
-  - Blocking
-  - Reporting
+  - Blocking/unblocking
+  - Reporting (profiles and vines)
   - Following/unfollowing
+    - Follow requests for private accounts
 - Exploring
   - Exploring users
   - Exploring tags
   - Explore page with trending tags, Editor's Pick, Popular Now, and On The Rise buttons
+- Activity (all types)
 
-## Not working:
-- VMs
-- Setting your account to private or sensitive doesn't do anything
-- Integration with FaceBook and Twitter (I won't repair this)
+## Not working: 
+- VMs 
+- Integration with FaceBook and Twitter
 
 ## Compatible Versions
 
 | Version | Status |
 | ------- | ------ | 
-| 1.x.x | Fully supported |
+| 1.0.x | Mostly supported<sup>1</sup> |
+| 1.3.x | Fully supported |
+| 1.4.x | Mostly supported<sup>2</sup> |
 | 2.5.1 | Planned |
 | 5.7.0 | Planned |
 | Other | Unknown |
+
+<sup>1</sup> Can't upload vines or see Explore page when using VineRedirect  
+<sup>2</sup> Crashes on timelines atm
 
 ## Setup
 **If you're not comfortable managing an Apache web server and handling basic management tasks without step-by-step guidance, you should not host an instance.** Please do not contact me for support in regards to hosting an instance.
@@ -54,7 +60,7 @@ I use Apache to host the server, with the `SQLite3` and `PDO_SQLITE` PHP extensi
 
 Drop the server in `/var/www/html` (or `htdocs` if using XAMPP), write your DMCA contact email in `_config.php`, make sure your app is pointed to the server, and register a new account through the app. The db file will be created automatically.
 
-[How to make the app point to the server](https://github.com/bruhdudeisdead/clematis/wiki/Patching)
+To make the app point to the server, I use [bag.xml's VineRedirect](https://cydia.bag-xml.com/), which works for jailbroken iOS 5-7 devices. A guide on patching for Android and other platforms can be found [here](https://github.com/bruhdudeisdead/clematis/wiki/Patching).
 
 ## Disclaimer
 This project does not claim ownership of, or affiliation with, the Vine trademark or any official Vine clients or applications.
