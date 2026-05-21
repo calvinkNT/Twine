@@ -1,8 +1,8 @@
 # Twine
 
-Code will be uploaded at a later time, once it's in a finished state.
+WIP open-source backend reimplementation for Vine
 
-This is the most feature-complete open-source backend reimplementation for Vine. ([Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo))
+[Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
 
 ## Working:
 - Registering new account
@@ -28,7 +28,6 @@ This is the most feature-complete open-source backend reimplementation for Vine.
   - Blocking/unblocking
   - Reporting (profiles and vines)
   - Following/unfollowing
-    - Follow requests for private accounts
 - Exploring
   - Exploring users
   - Exploring tags
@@ -40,22 +39,23 @@ This is the most feature-complete open-source backend reimplementation for Vine.
 - VMs 
 - Integration with FaceBook and Twitter
 - Password reset through app
+- Follow requesting immediately is approved; I can't figure out the `/users/:id/notifications/followRequests` endpoint for the life of me
 
 ## Compatible Versions
 
 | Version | Status |
 | ------- | ------ | 
 | 1.0.x | Mostly supported<sup>1</sup> |
-| 1.1.x & 1.2.x | Unknown |
+| 1.1.x & 1.2.x | Unknown/Not tested |
 | 1.3.x | Fully supported |
 | 1.4.x | Mostly supported<sup>2</sup> |
 | 2.5.1 | Planned |
 | 5.7.0 | Planned |
-| Other | Not planned<sup>0</sup> |
+| Other | Unknown, not planned<sup>0</sup> |
 
-<sup>0</sup> If you'd like to add support for more client versions, please make a PR or a fork  
+<sup>0</sup> If you'd like to improve on the project, please make a pull request.  
 <sup>1</sup> Can't upload vines or see Explore page when using VineRedirect  
-<sup>2</sup> Crashes on timelines atm
+<sup>2</sup> Crashes on viewing timelines
 
 ## Setup
 **If you're not comfortable managing an Apache web server and handling basic management tasks without step-by-step guidance, you should not host an instance.** Please do not contact me for support in regards to hosting an instance.
