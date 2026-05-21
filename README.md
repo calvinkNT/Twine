@@ -1,6 +1,6 @@
 # Twine
 
-WIP open-source backend reimplementation for Vine
+WIP open-source backend reimplementation for Vine (NOT READY FOR PROD!)
 
 [Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
 
