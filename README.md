@@ -45,18 +45,12 @@ WIP open-source backend reimplementation for Vine (NOT READY FOR PROD!)
 
 | Version | Status |
 | ------- | ------ | 
-| 1.0.x | Mostly supported<sup>1</sup> |
-| 1.1.x | Fully supported |
-| 1.2.x | Fully supported |
-| 1.3.x | Fully supported |
-| 1.4.x | Fully supported |
+| 1.x.x | Fully supported |
 | 2.5.1 | Planned |
 | 5.7.0 | Planned |
 | Other | Unknown, not planned<sup>0</sup> |
 
 <sup>0</sup> If you'd like to improve on the project, please make a pull request.  
-<sup>1</sup> Can't upload vines or see Explore page when using VineRedirect  
-<sup>2</sup> Crashes on viewing timelines
 
 ## Setup
 **If you're not comfortable managing an Apache web server and handling basic management tasks without step-by-step guidance, you should not host an instance.** Please do not contact me for support in regards to hosting an instance.
