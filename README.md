@@ -46,9 +46,10 @@ WIP open-source backend reimplementation for Vine (NOT READY FOR PROD!)
 | Version | Status |
 | ------- | ------ | 
 | 1.0.x | Mostly supported<sup>1</sup> |
-| 1.1.x & 1.2.x | Unknown/Not tested |
+| 1.1.x | Fully supported |
+| 1.2.x | Fully supported |
 | 1.3.x | Fully supported |
-| 1.4.x | Mostly supported<sup>2</sup> |
+| 1.4.x | Fully supported |
 | 2.5.1 | Planned |
 | 5.7.0 | Planned |
 | Other | Unknown, not planned<sup>0</sup> |
