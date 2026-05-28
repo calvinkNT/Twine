@@ -1,6 +1,6 @@
 # Twine
 
-WIP open-source backend reimplementation for Vine (NOT READY FOR PROD!)
+Unfinished open-source backend reimplementation for Vine **(Not ready for production use!)**
 
 [Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
 
@@ -37,17 +37,17 @@ WIP open-source backend reimplementation for Vine (NOT READY FOR PROD!)
 
 ## Not working: 
 - VMs 
-- Integration with FaceBook and Twitter
 - Password reset through app
-- Follow requesting immediately is approved; I can't figure out the `/users/:id/notifications/followRequests` endpoint for the life of me
+- Integration with FaceBook and Twitter
+- Follow requesting (as a workaround, it's immediately approved)
 
 ## Compatible Versions
 
 | Version | Status |
 | ------- | ------ | 
 | 1.x.x | Fully supported |
-| 2.5.1 | Planned |
-| 5.7.0 | Planned |
+| 2.5.1 | ~~Planned~~ |
+| 5.7.0 | ~~Planned~~ |
 | Other | Unknown, not planned<sup>0</sup> |
 
 <sup>0</sup> If you'd like to improve on the project, please make a pull request.  
