@@ -4,6 +4,8 @@ Unfinished open-source backend reimplementation for Vine **(Not ready for produc
 
 [Demo Video](https://www.youtube.com/watch?v=puNC5kEVflo)
 
+[Trellis](https://trls.uk), a Vine revival I run with ConsciousBone, Astro15, and RandomBlenderGuy (based off of this backend)
+
 ## Working:
 - Registering new account
 - Logging in
@@ -43,14 +45,7 @@ Unfinished open-source backend reimplementation for Vine **(Not ready for produc
 
 ## Compatible Versions
 
-| Version | Status |
-| ------- | ------ | 
-| 1.x.x | Fully supported |
-| 2.5.1 | ~~Planned~~ |
-| 5.7.0 | ~~Planned~~ |
-| Other | Unknown, not planned<sup>0</sup> |
-
-<sup>0</sup> If you'd like to improve on the project, please make a pull request.  
+The only app versions compatible with this backend are 1.0.x-1.3.x.
 
 ## Setup
 **If you're not comfortable managing an Apache web server and handling basic management tasks without step-by-step guidance, you should not host an instance.** Please do not contact me for support in regards to hosting an instance.
